@@ -1,0 +1,159 @@
+/*
+  MDU ITE130 Website Styles
+  Colors: #00352D (header/footer), #FDF4EB (background), #FF4802 (buttons)
+  Fonts: Tablet Gothic Bold (H1), Questa Slab Regular (body)
+*/
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tablet+Gothic:wght@700&display=swap');
+@import url('https://use.typekit.net/af/questa-slab.css'); /* Replace with actual Questa Slab link if available */
+
+body {
+	background-color: #FDF4EB;
+	font-family: Tablet Gothic, Arial, sans-serif;
+	margin: 0;
+	color: #222;
+}
+
+header {
+	background-color: #00352D;
+	padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	background-color: #00352D;
+}
+.logo {
+	color: #FF4802;
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.nav-links {
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+	margin: 0;
+	padding: 0;
+}
+.nav-links li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: color 0.2s;
+}
+.nav-links li a:hover {
+	color: #FF4802;
+}
+
+/* Search form in navbar */
+.search-form {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.search-form input[type="text"] {
+	padding: 0.4rem 0.8rem;
+	border: none;
+	border-radius: 4px;
+	font-size: 1rem;
+}
+.search-form button {
+	background-color: #FF4802;
+	color: #fff;
+    font-family: 'Tablet Gothic', Arial, sans-serif;
+	border: none;
+	border-radius: 4px;
+	padding: 0.4rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.search-form button:hover {
+	background-color: #d93c00;
+}
+
+main {
+	max-width: 900px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+}
+
+/* H1 styling for course title */
+h1 {
+	font-family: 'Tablet Gothic', Arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	color: #00352D;
+}
+
+/* Section headings */
+h2 {
+	font-family: 'Tablet Gothic', Arial, sans-serif;
+	font-size: 2rem;
+	color: #00352D;
+	margin-top: 2rem;
+}
+
+/* Testimonial section */
+.testimonial-section {
+	background: #fff;
+	border-left: 6px solid #00352D;
+	margin: 2rem 0;
+	padding: 1.5rem 2rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.testimonial-section blockquote {
+	margin: 0;
+	font-style: italic;
+	color: #333;
+}
+
+/* Information box about Git */
+.info-box {
+    background: #fff;
+	border-left: 6px solid #FF4802;
+	margin: 2rem 0;
+	padding: 1.5rem 2rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.info-box h2 {
+	margin-top: 0;
+	color: #FF4802;
+}
+
+footer {
+	background-color: #00352D;
+	color: #fff;
+    letter-spacing: 0.05em;
+    word-spacing: 0.05em;
+	text-align: center;
+	padding: 1rem 0;
+	margin-top: 3rem;
+	font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+	.navbar {
+		flex-direction: column;
+		gap: 1rem;
+	}
+	main {
+		padding: 0 0.5rem;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.3rem;
+	}
+}
