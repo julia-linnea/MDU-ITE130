@@ -14,7 +14,7 @@ För att göra en sida som liknar MDU:s grafiska profil så började jag med att
 > Can you create a website, using HTML and CSS, for students at MDU (Mälardalen University), with an overview of the course ITE130. Use these colors: #00352D (for header/navbar and footer); #FDF4EB (background color), #FF4802 (on buttons). I want a search field in the navbar. I want H1 to be large and in the font Tablet Gothic Bold. I want the rest of the text in the font Questa Slab Regular. 
 Please add a section where a student is talking about the experience at the university. Also add an information box, with information about Git. Add comments to the code to make it easer to read and understand. 
 
-Så det jag specifierade i min prompt var vilka färger jag vill ha och vart, att jag vill ha ett sökfält i min navbar, stora rubriker och vilket typsnitt, samt en sektion med en studentberättelse och en informationsruta om git. Jag bad också om kommentarer att få kommenterar i koden, för att göra den lättare att läsa och navigera. 
+Så det jag specifierade i min prompt var vilka färger jag vill ha och vart, att jag vill ha ett sökfält i min navbar, stora rubriker och vilket typsnitt, samt en sektion med en studentberättelse och en informationsruta om git. Jag bad också om att få kommenterar i koden, för att göra den lättare att läsa och navigera. 
 Då fick jag min grundstruktur i mitt HTML och CSS-dokument, som jag enkelt kunde fortsätta redigare och lägga till mer innehåll. 
 
 ## Insikter/tips om att skriva prompts i Copilot 
